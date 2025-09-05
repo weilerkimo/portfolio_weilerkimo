@@ -6,7 +6,7 @@ type Project = {
   title: string;
   slug: string;
   image?: string;
-  year?: string;
+  year?: string | number;
   // füge Felder hinzu, die du in projects.ts verwendest
 };
 
